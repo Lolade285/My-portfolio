@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    line-height: 0.9cm;
+    background-color: #f4f4f4;
+    color: #333;
+
+    header {
+        background: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+    }
+    
+    header .profile-picture img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+    
+    
+nav{
+    background-color: orange;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    }
+    
+    
+    nav a{
+    color: white;
+    text-decoration: none; 
+    }
+    
+    nav a:hover {
+        text-decoration: underline  ;
+    }
+}
+
+section {
+    padding: 5px;
+    margin: 5px;
+}
+
+#Home-page {
+    background: wheat;
+    text-align: center;
+}
+
+#About,#Skills, #project, #CV, #Contact-us {
+background: lavenderblush;
+border: 1px solid #ccc ;
+border-radius: 5px;
+padding: 10px;
+margin: 10px auto;
+max-width: 1300px;
+}
+
+h1, h2 {
+    color:black;
+}
+
+ul {
+    list-style: initial;
+    padding: 0px;
+}
+
+ul,li {
+    background: moccasin;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+#project img {
+    width: 50%;
+    height: auto;
+}
+
+#project {
+background-color: orange;
+}
